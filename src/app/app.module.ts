@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header.component';
 import { BodyComponent } from './components/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgStyleComponent } from './components/ng-style/ng-style.component';
+import { CssComponent } from './components/css/css.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    CssComponent
   ],
   imports: [
     BrowserModule
